@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: service-a
+  datasource:
+    url: jdbc:mysql://localhost:3306/service_a_uat
+    username: uat_user
+    password: uat_pass
+  logging:
+    level:
+      root: WARN
+      com.example: INFO

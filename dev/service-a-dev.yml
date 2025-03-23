@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: service-a
+  datasource:
+    url: jdbc:mysql://localhost:3306/service_a_dev
+    username: dev_user
+    password: dev_pass
+  logging:
+    level:
+      root: INFO
+      com.example: DEBUG
