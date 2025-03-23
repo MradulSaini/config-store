@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: service-b
+  redis:
+    host: redis-uat.example.com
+    port: 6380
+  feature-toggle:
+    new-feature: false
+  logging:
+    level:
+      root: WARN
+      com.example: INFO
