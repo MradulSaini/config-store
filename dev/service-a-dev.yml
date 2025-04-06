@@ -9,3 +9,7 @@ spring:
     level:
       root: INFO
       com.example: DEBUG
+
+  customproperty:
+    name: FirstName
+
